@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<title>Purple Spiders: Contact Us</title>
+<meta charset="UTF-8">
+<meta description="The band page of the purple spiders fan club">
+<meta author="Asher Nagler">
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	#pageHeader {
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		height: 180px;
+		width: 100%;
+		background: linear-gradient(#000000, #5900C4);
+		color: #918E8E;
+	}
+	#pageHeader table {
+		width: 100%;
+	}
+	#logo {
+		width:100px;
+		height:150px;
+	}
+	#name {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	#navbar {
+		height: 50px;
+		width: 100%;
+		background: black;
+	}
+	#navbar table {
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		width: 100%;
+		height: 100%;
+	}
+	table tr {
+		height: 100%;
+	}
+	@keyframes hoverNav {
+		from {background-color: #5900C4}
+		to {background-color: #000000}
+	}
+	.navTD {
+		width: 20%;
+		text-align: center;
+		background-color: #5900C4;
+	}
+	.activeTD {
+		width: 20%;
+		text-align: center;
+		background-color: #8F6DAD;
+		
+	}
+	.navTD:hover {
+		animation-name: hoverNav;
+		animation-duration: 0.5s;
+		animation-fill-mode: forwards;
+	}
+	
+	.nav-link {
+		font-size: 30px;
+		padding: 10px;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	.navTD .nav-link {
+		color: white;
+	}
+	.activeTD .nav-link {
+		color: black;
+	}
+	#titleTD {
+		width: 50%;
+		text-align: left;
+	}
+	#imgTD {
+		width: 50%;
+	}
+	#mainFooter {
+		background: linear-gradient(#5900C6, #000000);
+		padding-top: 10px;
+	}
+	.page-content {
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		color: white;
+	}
+	footer {
+		padding-bottom: 50px;
+	}
+</style>
+
+</head>
+
+<body>
+	<header id="pageHeader">
+		<table>
+			<tr>
+				<td id="imgTD">
+					<img id="logo" src="assets/InkedpurpleSpidersLogoPhotoshopped.png" alt="Purple spiders logo" align="right">
+				</td>
+				<td id="titleTD">
+					<h1 id="name">Purple spiders</h1>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td style="width: 100%; text-align: center"><p style="font-weight: bold; font-variant: small-caps; font-size: 15px">THE OFFICIAL PURPLE SPIDERS FAN SITE</p></td>
+			</tr>
+		</table>
+	</header>
+
+	<nav id="navbar">
+		<table>
+			<tr>
+				<td class="navTD">
+					<a href="index.html" class="nav-link">Home</a>
+				</td>
+				<td class="navTD">
+					<a href="Contact.html" class="nav-link">Contact Us</a>
+				</td>
+				<td class="navTD">
+					<a href="fanClubInfo.html" class="nav-link">Fan Club Info</a>
+				</td>
+				<td class="navTD">
+					<a href="music.html" class="nav-link">Music</a>
+				</td>
+				<td class="activeTD">
+					<a href="#" class="nav-link">Meet The Band</a>
+				</td>
+			</tr>
+		</table>
+	</nav>
+	
+	<div id="mainFooter">
+		<main>
+		</main>
+
+		<footer>
+
+			<br>
+			<div style="width: 98%; margin: auto">
+				<hr style="border: 1px solid #8F6DAD">
+				<p style="color: #8F6DAD">&copy 2020 Purple Spiders Inc. All rights reserved</p>
+			</div>
+
+		</footer>
+	</div>
+</body>
+</html>
